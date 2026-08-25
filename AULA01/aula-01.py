@@ -1,7 +1,6 @@
 #Escreva um programa que peça o nome e a idade de uma pessoa e diga se ela pode votar.
 nome = input("Digite seu nome: ")
 idade = int(input("Digite a sua idade: "))
-
 if idade >= 16:
     print(f"{nome}, Você pode votar!")
 else:
