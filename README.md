@@ -4,3 +4,5 @@
 📍#Tabuada feita em for de 1 a 10.<br>
 📍#programa que conte de 1 a 100 e exiba apenas os números pares.<br>
 📍#Peça ao usuário uma palavra e verifique se ela é um palíndromo (ex: “arara”).<br>
+👨‍🎓 <strong><em>Aula 02: 20 Exercícios em python com as seguintes perguntas:
+🔃Em andamento...
