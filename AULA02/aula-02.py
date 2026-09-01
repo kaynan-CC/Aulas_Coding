@@ -19,7 +19,7 @@ print(f"O dobro de {nu} é {resul}.")
 #Faça um programa que calcule a média de duas notas.
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
-media = nota1 * nota2 / 2
+media = (nota1 + nota2) / 2
 print(f"A média de {nota1} e {nota2} é {media}.")
 #Faça um programa que descobre se é maior de idade ou não.
 name = input("Digite o seu nome: ")
@@ -52,7 +52,7 @@ elif number2 > number1:
 #Faça um programa que pergunta o nome e a idade da pessoa e se a idade for maior ou igual a 12, permite a entrada, se não, bloqueia.
 nombre = input("Digite seu nome: ")
 idade1 = int(input("Digite a sua idade: "))
-if idade >= 12:
+if idade1 >= 12:
     print(f"Caro, {nombre}, sua entrada foi permitida.")
 else:
     print(f"Caro, {nombre}, sua entrada foi bloqueada.")
@@ -61,19 +61,19 @@ for i in range(1, 11):
     print(i)
 #Faça um progarama que conte de 1 até um número personalizado.
 n = int(input("Digite um número: "))
-for i in range(1, n):
+for i in range(1, n+ 1):
     print(i)
 #Faça um programa que exibe uma tabuada de 1 até 10.
 num = int(input("Digite um numero para a tabuada: "))
 for i in range(1, 11):
-    resultado = numero * i
-    print(f"{numero} * {i} = {resultado}")
+    resultado = num * i
+    print(f"{num} * {i} = {resultado}")
 #Faça um programa que peça um número inteiro e que realize uma contagem regressiva
 nn = int(input("Digite um numero: "))
 for i in range(nn, -1, -1):
     print(i)
 #Faça um programa que conte de 1 a 50 e exiba apenas os números pares.
-for p in range(0, 51, 2):
+for p in range(2, 51, 2):
     print(p)
 #Faça um programa que descubra se é par ou ímpar.
 nnn= int(input("Digite um número: "))
