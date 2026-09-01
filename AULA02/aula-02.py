@@ -49,6 +49,8 @@ if number1 > number2:
     print(f"O {number1} é maior que {number2}")
 elif number2 > number1:
     print(f"O {number2} é maior que {number1}")
+else:
+    print("Os dois números são iguais.")
 #10- Faça um programa que pergunta o nome e a idade da pessoa e se a idade for maior ou igual a 12, permite a entrada, se não, bloqueia.
 nombre = input("Digite seu nome: ")
 idade1 = int(input("Digite a sua idade: "))
