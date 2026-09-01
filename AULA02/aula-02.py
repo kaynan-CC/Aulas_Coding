@@ -68,3 +68,47 @@ num = int(input("Digite um numero para a tabuada: "))
 for i in range(1, 11):
     resultado = numero * i
     print(f"{numero} * {i} = {resultado}")
+#Faça um programa que peça um número inteiro e que realize uma contagem regressiva
+nn = int(input("Digite um numero: "))
+for i in range(nn, -1, -1):
+    print(i)
+#Faça um programa que conte de 1 a 50 e exiba apenas os números pares.
+for p in range(0, 51, 2):
+    print(p)
+#Faça um programa que descubra se é par ou ímpar.
+nnn= int(input("Digite um número: "))
+if nnn % 2 == 0:
+    print("Seu numero é par.")
+else:
+    print("Seu numero é ímpar.")
+#Faça um programa que percorra de 1 a 20 e que mostre apenas os números pares.]
+for n in range(1, 21):
+    if n % 2 == 0:
+        print(n)
+#Faça um programa que descobre se o número é divisivel por 5.
+numer = int(input("Digite um número: "))
+if numer % 5 == 0:
+    print("Esse número é divisivel por 5.")
+else:
+    print("Esse número não é divisivel por 5.")
+#Faça um programa que verifica a palavra python digitada
+palavra = input("Digite a palavra Python: ").upper()
+if palavra == "PYTHON":
+    print("Você digitou Python.")
+else:
+    print("Você digitou outra palavra ou digitou Python errado.")
+#Faça um programa que peça o nome do aluno, idade e nota. Depois verifique se ele é maior ou menor de idade e se foi aprovado ou reprovado.
+#Nota >= 7 Aprovado.
+#Nota < 7 Reprovado.
+aluno = input("Digite o seu nome: ")
+anos = int(input("Digite a sua idade: "))
+exam = float(input("Digite a sua nota: "))
+print(f"Aluno: {aluno}")
+if anos >=18:
+    print("Situação: Maior de idade")
+else:
+    print("Situação: Menor de idade")
+if exam >= 7:
+    print("Resultado: Aprovado.")
+else:
+    print("Resultado: Reprovado.")
