@@ -4,7 +4,7 @@
 📍#Tabuada feita em for de 1 a 10.<br>
 📍#programa que conte de 1 a 100 e exiba apenas os números pares.<br>
 📍#Peça ao usuário uma palavra e verifique se ela é um palíndromo (ex: “arara”).<br>
-👨‍🎓 <strong><em>Aula 02: 20 Exercícios em python com as seguintes perguntas:
+👨‍🎓 <strong><em>Aula 02: 20 Exercícios em python com as seguintes perguntas:</em></strong><br>
 📍#Faça um programa que peça o nome e a idade da pessoa.<br>  
 📍#Faça um programa que some 2 números.<br>  
 📍#Faça um programa onde exibe o antecessor e o sucessor de um número.<br>  
