@@ -17,17 +17,17 @@ nu = float(input("Digite um número: "))
 resul = nu * 2
 print(f"O dobro de {nu} é {resul}.")
 #Faça um programa que calcule a média de duas notas.
-nota1 = float(input("Digite a primeira nota: "))
+nota1 = float(input("Digite a primeira nota: ")) # Primeiro pergunto as duas notas para o usuário e converto para número decimal.
 nota2 = float(input("Digite a segunda nota: "))
-media = (nota1 + nota2) / 2
-print(f"A média de {nota1} e {nota2} é {media}.")
+media = (nota1 + nota2) / 2 # Em seguida, faço a soma das notas e divido o resultado por 2 para achar a média.
+print(f"A média de {nota1} e {nota2} é {media}.") #Por fim, exibo o valor da média calculada na tela.
 #Faça um programa que descobre se é maior de idade ou não.
-name = input("Digite o seu nome: ")
+name = input("Digite o seu nome: ") # Primeiro peço o nome e a idade do usuário.
 age = int(input("Digite a sua idade: "))
-if age >= 18:
+if age >= 18: #Depois verifico se a idade inserida é maior ou igual a 18 anos.
     print(f"{name} Você é maior de idade.")
 else:
-    print(f"{name} Você é menor de idade.")
+    print(f"{name} Você é menor de idade.") # Por fim, exibo na tela se a pessoa é maior ou menor de idade.
 #Faça um programa que pede a media de um aluno e exiba se é aprovado ou reprovado.
 average = float(input("Digite a média do aluno: "))
 if average >= 7:
@@ -76,11 +76,11 @@ for i in range(nn, -1, -1):
 for p in range(2, 51, 2):
     print(p)
 #Faça um programa que descubra se é par ou ímpar.
-nnn= int(input("Digite um número: "))
-if nnn % 2 == 0:
+nnn= int(input("Digite um número: ")) # Primeiro solicito que o usuário digite um número inteiro.
+if nnn % 2 == 0: # Em seguida, calculo o resto da divisão desse número por 2 usando o operador %.
     print("Seu numero é par.")
 else:
-    print("Seu numero é ímpar.")
+    print("Seu numero é ímpar.") # Por fim, se o número for par mostro que é par, caso contrário mostro que é ímpar.
 #Faça um programa que percorra de 1 a 20 e que mostre apenas os números pares.]
 for n in range(1, 21):
     if n % 2 == 0:
